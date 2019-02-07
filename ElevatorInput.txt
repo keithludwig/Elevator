@@ -1,0 +1,18 @@
+// Initialize an elevator controller with 10 floors, 2 elevators
+init 10 2
+sleep 1
+
+// Joe wants to go from 1 to 6
+rider Joe 1 6
+sleep 6
+
+// Frank wants to go from 4 to 5
+rider Frank 4 5
+sleep 1
+
+// Susan wants to go from 3 to 2
+rider Susan 3 2
+sleep 1
+
+sleep 120
+quit
